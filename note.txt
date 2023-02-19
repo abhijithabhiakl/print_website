@@ -1,1 +1,5 @@
-python3 -m django startproject mysite
+python3 -m django startproject mysite -  to start django project in ubuntu
+
+python manage.py runserver -  development sever
+python manage.py runserver 8080 - port specification
+python manage.py runserver 0.0.0.0:8000 - IP specification
